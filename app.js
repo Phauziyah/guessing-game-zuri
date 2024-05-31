@@ -35,9 +35,5 @@ function play() {
 
 
 function refresh() {
-    document.querySelector(".refresh").addEventListener("click", () => {
-        history.go(0);
-      });
+    document.getElementById('guess').value = '';
 }
-
-
