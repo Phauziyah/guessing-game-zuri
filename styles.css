@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  html,
+  main {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  body {
+    background: linear-gradient(to right top, #080878, #6cdbeb);
+    font-family: sans-serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    max-width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  #my_btn{
+    background: #65dfc9;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  #my_refresh {
+    background: rgb(177, 35, 35);
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  
+
+ 
